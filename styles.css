@@ -1,0 +1,30 @@
+#scroll-p{
+    display: flex;
+    height: 200px;
+    width: 400px;
+    border-style: groove;
+    border-color: yellow;
+    border-width: 10px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+   }
+.search{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    border-style: ridge;
+    border-color: yellow;
+    border-width: 20px;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: auto
+}
+body {
+    position: relative;
+    background-image: url("./assets/space.jpg");
+    background-position: center;
+  }  
