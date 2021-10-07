@@ -1,17 +1,19 @@
-https://api.nasa.gov/planetary/apod?api_key==Zzxy8zXpGKgL4hXQb7AvBQdtUBAzp0xo6d9NuRuH
-
+//https://api.nasa.gov/planetary/apod?api_key==Zzxy8zXpGKgL4hXQb7AvBQdtUBAzp0xo6d9NuRuH
+let obj= document.getElementById('submit')
 function getDate() {
     return document.getElementById('dateSearch').value
 }
 
-function mDown(obj) {
+let mDown=function() { 
     obj.style.backgroundColor = "#ffffff";
     obj.innerHTML = "Submit";
+   
   }
   
-  function mUp(obj) {
+  function mUp() {
     obj.style.backgroundColor="#D94A38";
     obj.innerHTML="Thank You";
+    setTimeout(mDown, 3000);
   }
 
 
